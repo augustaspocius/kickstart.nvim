@@ -11,7 +11,7 @@ return {
   },
   cmd = 'Neotree',
   keys = {
-    { '\\', ':Neotree reveal<CR>', desc = 'NeoTree reveal', silent = true },
+    { '\\', ':Neotree reveal right<CR>', desc = 'NeoTree reveal on right side', silent = true },
   },
   opts = {
     filesystem = {
